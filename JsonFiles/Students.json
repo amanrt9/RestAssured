@@ -16,8 +16,8 @@
       "location": "Aus",
       "phone": "2222",
       "courses": [
-        "python",
-        "selenium"
+        "SQL",
+        "DataAnalyst"
       ]
     },
     {
@@ -38,6 +38,46 @@
       "courses": [
         "SQL",
         "DBMS"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Mark",
+      "phone": "4444",
+      "location": "Perth",
+      "courses": [
+        "MySQL",
+        "Oracle"
+      ]
+    },
+    {
+      "id": "5",
+      "courses": [
+        "Ruby",
+        "NoSql"
+      ],
+      "phone": "5555",
+      "name": "Smith",
+      "location": "Sydeny"
+    },
+    {
+      "id": "6",
+      "name": "QDK",
+      "phone": "6666",
+      "location": "SAfrica",
+      "courses": [
+        "GoLang",
+        "Google"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Thala",
+      "phone": "7777",
+      "location": "Ranchi",
+      "courses": [
+        "JavaScript",
+        "PlayWrite"
       ]
     }
   ]

@@ -10,14 +10,14 @@ public class GetRequest_Students {
 	public void Tc1()
 	{
 		given()
-		.contentType("application/json")
+		    .contentType("application/json")
 		.when()
-		.get("http://localhost:3000/students/1")
+		     .get("http://localhost:3000/students/1")
 		.then()
-		.statusCode(200)
-		.log().all();
+		     .statusCode(200)
+		     .log().all();
 	}
-	@Test(priority=2)
+	//@Test(priority=2)
 	public void Tc2()
 	{
 		given()

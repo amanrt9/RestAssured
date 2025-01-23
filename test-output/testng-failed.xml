@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="bascic_HTTPRequest.DeleteRequest_Student">
+      <class name="ParsingJsonData.ParsingJSONResponseData">
         <methods>
-          <include name="Tc1"/>
+          <include name="Tc02"/>
         </methods>
-      </class> <!-- bascic_HTTPRequest.DeleteRequest_Student -->
+      </class> <!-- ParsingJsonData.ParsingJSONResponseData -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

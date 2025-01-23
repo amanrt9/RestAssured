@@ -9,8 +9,10 @@ import java.util.LinkedHashMap;
 
 public class PostRequest_Students {
    @Test
-   public void Tc1() {
+   public void Tc1() 
+   {
 	   LinkedHashMap<Object,Object>hs=new LinkedHashMap<>();
+	   
 	   hs.put("id", "3");
 	   hs.put("name", "Travis");
 	   hs.put("phone", "3333");
@@ -19,13 +21,13 @@ public class PostRequest_Students {
 	   hs.put("courses", ar);
 	   
 	   given()
-	      .contentType("application/json")
-	      .body(hs)
+	          .contentType("application/json")
+	          .body(hs)
 	    .when()
-	      .post("http://localhost:3000/students")
+	          .post("http://localhost:3000/students")
 	    .then()
-	       .statusCode(201)
-	       .log().all();
+	         .statusCode(201)
+	         .log().all();
 	      
 	   
    }

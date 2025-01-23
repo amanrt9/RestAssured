@@ -11,7 +11,7 @@ public class PutRequest_Student {
 	public void Tc1()
 	{
 		LinkedHashMap<Object,Object>hs=new LinkedHashMap<>();
-		 hs.put("id", "3");
+		   hs.put("id", "3");
 		   hs.put("name", "Travis");
 		   hs.put("phone", "33933");
 		   hs.put("location", "Delhi");
@@ -19,13 +19,13 @@ public class PutRequest_Student {
 		   hs.put("courses", ar);
 		
 		given()
-		   .contentType("application/json")
-		   .body(hs)
+		     .contentType("application/json")
+		     .body(hs)
 	    .when()
-	       .put("http://localhost:3000/students/3")
+	          .put("http://localhost:3000/students/3")
 	    .then()
-	       .statusCode(200)
-	       .log().all();
-	}
+	          .statusCode(200)
+	          .log().all();
+	} 
 
 }

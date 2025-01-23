@@ -13,7 +13,7 @@ public class DeleteRequest_Student {
 		given()
 		   .contentType("application/json")
          .when()
-            .delete("http://localhost:3000/students/4")
+            .delete("http://localhost:3000/students/11")
          .then()
              .statusCode(200)
              .log().all();

@@ -1,0 +1,10 @@
+{
+      "id": "6",
+      "name": "QDK",
+      "phone": "6666",
+      "location": "SAfrica",
+      "courses": [
+        "GoLang",
+        "Google"
+      ]
+    }
